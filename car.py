@@ -1,12 +1,12 @@
 class Car:
-    def __init__(self,color,made,model,ragistration):
+    def __init__(self,color,made,model,registration):
         self.color=color
         self.model=model
-        self.ragistration=ragistration
+        self.registration=registration
         self.made=made
 
     def drive(self):
-        return f"hello my model is {self.model}, {self.made} and the {self.ragistration} and it is {self.color}"
+        return f"hello my model is {self.model}, {self.made} and the {self.registration} and it is {self.color}"
 
 
 
